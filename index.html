@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>남았냥 개인정보처리방침</title>
-<meta name="description" content="남았냥 앱의 개인정보처리방침 — 서버·회원가입 없음, 인터넷 권한 없음, 기기 내 저장, 삭제 방법">
+<meta name="description" content="남았냥 앱의 개인정보처리방침 — 서버·회원가입 없음, 기기 내 저장, Google AdMob 광고, 권한, 삭제 방법">
 <style>
   :root { --bg: #F3F6FD; --card: #fff; --ink: #16181F; --ink2: #4A4E5A; --muted: #7C808E; --p: #2F6FED; --line: #E2E7F3; }
   @media (prefers-color-scheme: dark) { :root { --bg: #0E1016; --card: #191C25; --ink: #F1F3FA; --ink2: #C8CCD8; --muted: #7C808E; --p: #6F9BFF; --line: #262A3A; } }
@@ -38,9 +38,9 @@
 
   <h2>1. 요약</h2>
   <ul class="summary">
-    <li>앱은 <strong>회원가입·로그인이 없고, 운영자의 서버가 없습니다.</strong></li>
-    <li>앱은 <strong>인터넷 권한을 사용하지 않습니다.</strong> 이용자가 입력한 정보는 이용자의 기기 안에서만 계산·저장되며 기기 밖으로 전송되지 않습니다.</li>
-    <li>앱에는 <strong>광고, 분석 도구, 크래시 리포트, 추적 SDK가 없습니다.</strong></li>
+    <li>앱은 <strong>회원가입·로그인이 없고, 운영자의 서버가 없습니다.</strong> 이용자가 입력한 원가·판매가 등은 이용자의 기기 안에서만 계산·저장되며 운영자에게 전송되지 않습니다.</li>
+    <li>앱은 무료로 제공되며, 화면 아래에 <strong>Google AdMob 배너 광고</strong>를 표시합니다. 광고가 표시될 때 Google이 광고 식별자 등 일부 정보를 수집할 수 있습니다.</li>
+    <li>앱은 AdMob 외의 분석 도구, 크래시 리포트, 추적 SDK를 사용하지 않습니다.</li>
     <li>앱을 삭제하면 기기 안의 앱 데이터도 함께 삭제됩니다.</li>
   </ul>
 
@@ -53,14 +53,27 @@
   </table>
   <p>앱은 이름·연락처·주소·계좌 등 개인 식별 정보를 묻지 않습니다. 상품 이름에는 개인정보를 적지 않기를 권장합니다.</p>
 
-  <h2>3. 결제 (Google Play)</h2>
-  <p>앱 구매 결제는 Google Play가 처리하며, 결제 정보는 Google의 개인정보처리방침에 따라 처리됩니다. 운영자는 Google Play가 판매자에게 제공하는 범위의 주문 정보만 확인할 수 있으며, 이를 앱 기능에 사용하지 않습니다.</p>
+  <h2>3. 제3자 서비스: Google AdMob (광고)</h2>
+  <p>앱은 Google LLC가 제공하는 AdMob 광고 SDK를 포함합니다. 광고가 요청·표시될 때 Google과 그 광고 파트너는 다음과 같은 정보를 수집·처리할 수 있습니다.</p>
+  <ul>
+    <li>광고 식별자(Android Advertising ID), 기기 종류·OS 버전·언어 등 기기 정보</li>
+    <li>IP 주소 및 이를 통한 대략적 위치</li>
+    <li>광고 노출·클릭 등 광고 상호작용 정보</li>
+  </ul>
+  <p>이 정보는 운영자가 아니라 Google이 자체 개인정보처리방침에 따라 처리합니다. 앱에 입력한 원가·판매가·상품 이름 등은 광고 SDK에 전달되지 않습니다.</p>
   <ul>
     <li>Google 개인정보처리방침: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+    <li>Google 광고 및 데이터 사용 안내: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></li>
+    <li>AdMob 광고 파트너 목록: <a href="https://support.google.com/admob/answer/9012903">https://support.google.com/admob/answer/9012903</a></li>
   </ul>
+  <p>이용자는 Android 설정 &gt; 개인정보 보호 &gt; 광고에서 광고 ID를 삭제하거나 맞춤 광고를 제한할 수 있습니다. 유럽경제지역(EEA)·영국 등 동의가 필요한 지역에서는 앱 최초 실행 시 Google의 동의 관리 플랫폼(UMP)을 통해 광고 동의를 묻습니다.</p>
 
   <h2>4. 앱 권한</h2>
-  <p>앱은 별도의 권한을 요청하지 않습니다. 인터넷, 연락처, 위치, 카메라, 마이크, 저장소, 알림 권한을 사용하지 않습니다.</p>
+  <table>
+    <tr><th>권한</th><th>용도</th></tr>
+    <tr><td>인터넷 (INTERNET)</td><td>광고 로드에만 사용됩니다. 수수료 계산과 저장은 오프라인으로 동작합니다.</td></tr>
+  </table>
+  <p>앱은 연락처, 위치, 카메라, 마이크, 저장소, 알림 권한을 요청하지 않습니다.</p>
   <p>"판매 전 체크리스트"의 <strong>공식 사이트</strong> 버튼을 누르면 이용자의 기기에 설치된 브라우저로 정부24·홈택스·식품안전나라 등 공공기관 사이트가 열립니다. 이때 앱은 어떤 정보도 함께 보내지 않으며, 열린 사이트의 정보 처리는 해당 기관의 방침을 따릅니다.</p>
 
   <h2>5. 보관 및 삭제</h2>
@@ -72,10 +85,10 @@
   </ul>
 
   <h2>6. 아동의 개인정보</h2>
-  <p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동을 포함한 누구의 개인정보도 수집하지 않습니다.</p>
+  <p>앱은 만 14세 미만 아동을 대상으로 하지 않습니다. 운영자는 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
 
   <h2>7. 국외 이전</h2>
-  <p>운영자는 이용자 정보를 수집·이전하지 않습니다.</p>
+  <p>운영자는 이용자 정보를 수집·이전하지 않습니다. 다만 AdMob 광고 표시 과정에서 Google이 수집하는 정보는 Google의 정책에 따라 국외(미국 등)에 있는 서버에서 처리될 수 있습니다.</p>
 
   <h2>8. 계산 결과에 관한 안내</h2>
   <p>앱의 수수료는 네이버·쿠팡 등이 공개한 자료를 기준으로 앱에 내장되어 있으며, 수수료가 바뀌면 앱 업데이트로 반영합니다. 실제 정산 금액은 이벤트·쿠폰·정산 방식에 따라 다를 수 있습니다. "판매 전 체크리스트"는 참고용 안내이며 법률 자문이 아닙니다.</p>
